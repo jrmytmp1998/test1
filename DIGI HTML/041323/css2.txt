@@ -1,0 +1,107 @@
+
+@media only screen and (max-width: 500px){
+
+body, html{
+	margin:0;
+	padding:0;
+	
+}
+
+header{
+	
+	background: navy;
+    height: 20%;
+	
+}
+
+footer{
+	
+	background: #1a1e24;
+    height: 50%;
+}
+
+
+.body-content{
+	
+	height:100%;
+	
+	
+}
+
+.video-content{
+	
+	position: absolute;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 150px;
+	
+}
+
+video{
+	
+	
+	min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+	left: 0;
+}
+
+.top{
+	height:50%;
+	width:100%;
+	background:grey;
+	
+	
+}
+
+.bottom{
+	
+	height:50%;
+	width:100%;
+	background:green;
+}
+
+
+.logo{
+	float: left;
+    background-image: url(bts.png);
+    height: 131px;
+    width: 131px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0;
+    margin-top: -5%;
+	
+}
+
+.navigation{
+    font-size: 24px;
+    top: 20px;
+    position: relative;
+}
+
+nav{
+	display:block;
+	
+}
+
+.nav-link{
+	
+	text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding: 20px;
+}
+.nav-link:hover{
+	background:blue;
+	
+}
+
+
+
+}
+
